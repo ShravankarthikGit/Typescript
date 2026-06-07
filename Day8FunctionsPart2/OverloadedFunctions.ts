@@ -1,9 +1,9 @@
 //step1: write a signatures of functions
 //step2: implement a function
 //step3: calling function
-
-
 //Example1: Different parameter Types(data types)
+
+export {}; // 
 
 /*
 function getInfo(id:number):string;
@@ -74,9 +74,9 @@ console.log(processInput(5));
 
 //Example 4: 
 
-// function greet(name:string):string;
-// function greet(age:number):string;
-// function greet(isMarried:boolean):string;
+function greet(name:string):string;
+function greet(age:number):string;
+function greet(isMarried:boolean):string;
 
 function greet(value:string |number|boolean):string
 {
