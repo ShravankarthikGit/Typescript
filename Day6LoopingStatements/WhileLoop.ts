@@ -1,3 +1,5 @@
+export {};
+
 //while loop : A while loop executes as long as the condition is true.
 
 /*
@@ -9,15 +11,15 @@ while(condition)
 */
 
 //Example1: print 1.......10
-/*
-let i:number=1;   //Inilization
+
+/* let i:number=1;   //Inilization
 
 while(i<=5)    //t  t  t  t t  f
 {
     console.log(i); //1  2  3 4 5
     i++;  //2  3  4  5 6
-}
-*/
+} */
+
 
 // Example 2: print even numbers 1.....10
 
@@ -97,5 +99,18 @@ while(i>=1)
 */
 
 
+let num:number =0
+while (num <=10) {
+    console.log(num);
+    num++;
+}
 
 
+let num2:number=1
+while (true) {
+    if (num2 === 10) {
+        break;
+    }
+    console.log(num2);
+    num2++;
+}
