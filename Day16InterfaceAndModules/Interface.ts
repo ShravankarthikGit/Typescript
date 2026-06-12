@@ -6,6 +6,7 @@
 Abstract method: we only signature of the method ( there is no implementation)
 
 
+
 interface InterfaceName
 {
 properties
@@ -23,6 +24,7 @@ abstract methods
 
 //Example 1: Basic interface
 
+export {};
 
 interface Person
 {
@@ -104,27 +106,27 @@ console.log("After changing title:",b1.title);
 
 //Example 4: Extending Interfaces (Inheritance is applicable)
 
-/*
+
 //Parent interface
-interface Animal
+interface Animal1
 {
     name: string;
 }
 
 //Child interface
-interface Dog extends Animal{
+interface Cat extends Animal1{
     color:string;
 }
 
 
-let mydog:Dog={
+let mydog1:Cat={
     name:"Buddy",
     color:"Black"
 }
 
-console.log(mydog.name,mydog.color); //Buddy Black
+console.log(mydog1.name,mydog1.color); //Buddy Black
 
-*/
+
 
 
 //Example 5: 
